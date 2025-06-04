@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Arrays and Slices")
+
+	var array1 [5]int
+	array2 := [5]string{"Posicao 1", "Posicao 2", "Posicao 3", "Posicao 4", "Posicao 5"}
+	array3 := [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
+	fmt.Println(array1)
+	fmt.Println(array2)
+	fmt.Println(array3)
+
+	fmt.Println("Trabalhando com slice")
+	slice := []int{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+	fmt.Println(slice)
+
+}

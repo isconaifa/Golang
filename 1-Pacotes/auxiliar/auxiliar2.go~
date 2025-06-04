@@ -1,0 +1,9 @@
+package auxiliar
+
+import (
+	"fmt"
+)
+
+func auxilair2() {
+	fmt.Println("fazendo a soma", 4+7)
+}

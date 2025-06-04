@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+	var variaveis string = "variavel 1"
+	variavel2 := "variavel 2"
+	fmt.Println(variaveis)
+	fmt.Println(variavel2)
+
+	var (
+		nome  string = "Ana"
+		nome2 string = "Márcia"
+	)
+	fmt.Println(nome, nome2)
+
+	nome, sobrenome, idade, nacionalidade := "Márcia", "Panzo", 25, "Angolana"
+
+	fmt.Println(
+		nome,
+		sobrenome,
+		idade,
+		nacionalidade)
+}
