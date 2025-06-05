@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Maps")
+
+	usuario := map[string]string{
+		"nome":      "Ani",
+		"sobrenome": "silva",
+	}
+
+	fmt.Println(usuario["nome"])
+}
